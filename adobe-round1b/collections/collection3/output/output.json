@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": {
+      "role": "Food Contractor"
+    },
+    "job_to_be_done": {
+      "task": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items."
+    },
+    "processing_timestamp": "2025-07-27T15:45:01.376545"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "section_title": "o Scramble eggs in the same pan.",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "1 pound beef sirloin, thinly sliced",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Return chicken to the skillet and cook until heated through.",
+      "importance_rank": 3,
+      "page_number": 1
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Chicken Caesar Wrap",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "o 2 cloves garlic",
+      "importance_rank": 5,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "o Scramble eggs in the same pan. \no Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. \no Add bean sprouts, cooked shrimp, and chopped green onions. \no Garnish with crushed peanuts and serve. \n \nPajeon (Pancakes)",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": " \n1 pound beef sirloin, thinly sliced \n \n1 small onion, diced \n \n2 cloves garlic, minced \n \n1 cup mushrooms, sliced \n \n1 cup beef broth \n \n1 cup sour cream \n \n2 tablespoons flour \n \n2 tablespoons butter \n \n1 teaspoon paprika \n \nSalt and pepper to taste \n \nEgg noodles or rice for serving \nInstructions:",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": " \nReturn chicken to the skillet and cook until heated through. \n \nServe warm.",
+      "page_number": 1
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Chicken Caesar Wrap \nIngredients:",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "o 2 cloves garlic \no 4 tomatoes \no 4 cups vegetable broth \no 1 teaspoon cumin \no 1 teaspoon coriander \no 1 teaspoon turmeric \no 1 teaspoon salt \no 1/4 cup cilantro \n \nInstructions:",
+      "page_number": 1
+    }
+  ]
+}

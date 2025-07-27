@@ -1,0 +1,70 @@
+{
+  "title": "Sample PDF Legal Size | Sample-Files.com",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Sample",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Sample PDF Content",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Introduction",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Objectives",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Key Findings",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Methodology",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Data Collection",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Data Analysis",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Results",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Charts and Graphs",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Conclusion",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Next Steps:",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "References",
+      "page": 5
+    }
+  ]
+}

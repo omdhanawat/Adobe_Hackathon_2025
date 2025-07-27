@@ -1,0 +1,55 @@
+{
+  "title": "Developer Example PDF (A4 Size) | Sample-Files.com",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "PDF Example",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "for Developers",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "PDF Example for Developers",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Bullet Points:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Numbered Lists:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Tables and Data Display",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Images and Hyperlinks",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Forms and Annotations",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Overview",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Form Elements:",
+      "page": 6
+    }
+  ]
+}

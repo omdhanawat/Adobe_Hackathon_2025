@@ -1,0 +1,125 @@
+{
+  "title": "Sample 10-Page PDF A4 Size | Sample-Files.com",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "SmartHome Hub",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Alex Johnson",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Prepared By",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Product Launch Strategy",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Table of Contents",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "1. Executive Summary",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "2. Introduction",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "3. Product Overview",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "4. Market Analysis",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "5. Competitor Analysis",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "6. Marketing Strategy",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "7. Sales Projections",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "8. Launch Timeline",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Executive Summary",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Product Overview",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Key Features",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Market Analysis",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Competitor Analysis",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Marketing Strategy",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "1st Strategy",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "2nd Strategy",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Sales Projections",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Launch Timeline",
+      "page": 10
+    }
+  ]
+}
