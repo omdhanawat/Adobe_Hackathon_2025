@@ -15,6 +15,32 @@ This project is a solution to **Round 1A of Adobe's "Connecting the Dots" Hackat
 Output is a JSON file in the required Adobe challenge format.
 
 ---
+"""
+## 🧭 Approach
+
+This tool works in three intelligent stages:
+
+### 1. Title Extraction
+It first tries to extract the document title from the PDF metadata. If unavailable or too short, it intelligently scans the top portion of the first page for the largest and most prominent text block(s), merging lines where needed to generate a meaningful document title.
+
+### 2. Heading Detection & Classification
+Each page is scanned for text spans, which are grouped into lines and then merged if they belong to the same heading (based on vertical proximity and font size similarity). The font size of the main body text is statistically inferred to serve as a baseline. Using this:
+- **Font size ratios**, 
+- **Boldness flags**, 
+- **ALL CAPS usage**, and 
+- **Roman numeral prefixes**
+
+...are used to classify headings into `H1`, `H2`, or `H3`.
+
+### 3. Noise Filtering
+The detected headings are passed through a noise filter to exclude:
+- Short or generic words,
+- Decorative or repeated elements (e.g., lines of dots),
+- Page headers/footers,
+- Common metadata tokens like "version", "remarks", etc.
+
+Finally, the structured outline is saved in a clean, standardized JSON format.
+"""
 
 ## 🚀 Features
 

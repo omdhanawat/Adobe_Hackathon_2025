@@ -9,12 +9,22 @@ Given:
 - A user persona (e.g., Travel Planner),
 - And a specific task (e.g., Plan a 4-day trip for 10 college friends),
 
-📌 The system should:
-1. **Parse and extract meaningful sections** from the PDF documents.
-2. **Rank those sections** based on relevance to the given persona and task.
-3. Return a structured `output.json` with:
-   - Top 5 ranked sections.
-   - Refined text analysis.
+## 🧭 Approach
+
+The solution follows a three-stage pipeline:
+
+### 1. Section Extraction
+We parse all PDF documents using `PyMuPDF` to extract readable text blocks. Each page is scanned, and blocks with meaningful length are captured along with their page number. This forms a pool of candidate sections.
+
+### 2. Semantic Ranking
+Each extracted section is embedded using the `all-MiniLM-L6-v2` model from `sentence-transformers`. We also embed the query string formed by combining the persona and the task. Then we compute cosine similarity between the query and all section embeddings to select the most relevant ones.
+
+### 3. Output Structuring
+The top 5 most relevant sections (each from a different document) are selected. For each section:
+- The **title** is cleaned and truncated to form a readable heading.
+- The **content** is refined to represent meaningful and informative insights for the given persona/task.
+
+All output is structured in a standardized `output.json` format with timestamps and ranking metadata.
 
 ---
 
